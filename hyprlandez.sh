@@ -63,5 +63,13 @@ figlet chromium is done
 cd my-notveryautomated-script
 cp arch.png ~
 cd
-swww -i arch.png
-echo you might wanna reboot..?
+swww img arch.png
+#--------------------------------------------------------------
+mkdir -p ~/.config/fastfetch
+cd my-notveryautomated-script
+cp config.jsonc .config/fastfetch
+cd
+figlet fastfetch done
+echo might wanna reboot?..
+#---------------------------------------------------------------
+
