@@ -1,0 +1,239 @@
+ /**
+ * Tokyo Night Theme for Rofi
+ * Author: Custom Configuration
+ * Inspired by Tokyo Night color scheme
+ */
+
+* {
+    /* Tokyo Night Colors */
+    bg0:     #1a1b26;
+    bg1:     #24283b;
+    bg2:     #414868;
+    bg3:     #565f89;
+    fg0:     #c0caf5;
+    fg1:     #a9b1d6;
+    fg2:     #9aa5ce;
+    accent:  #7aa2f7;
+    urgent:  #f7768e;
+    active:  #9ece6a;
+    
+    /* Additional Colors */
+    cyan:    #7dcfff;
+    purple:  #bb9af7;
+    orange:  #ff9e64;
+    yellow:  #e0af68;
+    
+    /* Theme Settings */
+    background-color: transparent;
+    text-color:       @fg0;
+    
+    font: "JetBrains Mono 12";
+}
+
+window {
+    location:         center;
+    width:            800px;
+    border-radius:    12px;
+    background-color: @bg0;
+    border:           2px solid;
+    border-color:     @accent;
+}
+
+mainbox {
+    padding:          20px;
+    background-color: transparent;
+    children:         [ "inputbar", "message", "listview", "mode-switcher" ];
+    spacing:          15px;
+}
+
+inputbar {
+    background-color: @bg1;
+    text-color:       @fg0;
+    border-radius:    8px;
+    padding:          12px 16px;
+    children:         [ "prompt", "textbox-prompt-colon", "entry" ];
+    spacing:          10px;
+}
+
+prompt {
+    background-color: transparent;
+    text-color:       @accent;
+    font:             "JetBrains Mono Bold 12";
+}
+
+textbox-prompt-colon {
+    expand:           false;
+    str:              ">";
+    text-color:       @accent;
+    background-color: transparent;
+}
+
+entry {
+    placeholder:       "Type to search...";
+    placeholder-color: @bg3;
+    background-color:  transparent;
+    text-color:        @fg0;
+}
+
+message {
+    background-color: @bg1;
+    border-radius:    8px;
+    padding:          12px;
+    border:           1px solid;
+    border-color:     @bg2;
+}
+
+textbox {
+    background-color: transparent;
+    text-color:       @fg1;
+}
+
+listview {
+    background-color: transparent;
+    columns:          1;
+    lines:            8;
+    spacing:          5px;
+    cycle:            true;
+    dynamic:          true;
+    scrollbar:        true;
+    layout:           vertical;
+    fixed-height:     true;
+}
+
+scrollbar {
+    width:            4px;
+    border:           0;
+    handle-color:     @accent;
+    handle-width:     4px;
+    padding:          0;
+    border-radius:    2px;
+    background-color: @bg2;
+}
+
+element {
+    background-color: transparent;
+    text-color:       @fg1;
+    padding:          10px 12px;
+    border-radius:    6px;
+    spacing:          8px;
+}
+
+element normal.normal {
+    background-color: transparent;
+    text-color:       @fg1;
+}
+
+element normal.urgent {
+    background-color: @urgent;
+    text-color:       @bg0;
+}
+
+element normal.active {
+    background-color: @bg1;
+    text-color:       @active;
+}
+
+element selected.normal {
+    background-color: @accent;
+    text-color:       @bg0;
+    border:           1px solid;
+    border-color:     @cyan;
+}
+
+element selected.urgent {
+    background-color: @urgent;
+    text-color:       @bg0;
+}
+
+element selected.active {
+    background-color: @active;
+    text-color:       @bg0;
+}
+
+element alternate.normal {
+    background-color: transparent;
+    text-color:       @fg1;
+}
+
+element alternate.urgent {
+    background-color: transparent;
+    text-color:       @urgent;
+}
+
+element alternate.active {
+    background-color: transparent;
+    text-color:       @active;
+}
+
+element-icon {
+    background-color: transparent;
+    size:             1.2em;
+}
+
+element-text {
+    background-color: transparent;
+    text-color:       inherit;
+}
+
+mode-switcher {
+    background-color: @bg1;
+    border-radius:    8px;
+    padding:          8px;
+    spacing:          8px;
+}
+
+button {
+    padding:          8px 16px;
+    background-color: transparent;
+    text-color:       @fg2;
+    border-radius:    6px;
+}
+
+button selected {
+    background-color: @accent;
+    text-color:       @bg0;
+}
+
+/* Error message */
+error-message {
+    background-color: @bg0;
+    border:           2px solid;
+    border-color:     @urgent;
+    border-radius:    12px;
+    padding:          20px;
+}
+
+/* Case indicator */
+case-indicator {
+    background-color: transparent;
+    text-color:       @fg2;
+    spacing:          0;
+}
+
+/* Configuration for different modi */
+configuration {
+    modi:                       "drun,run,window,ssh";
+    show-icons:                 true;
+    icon-theme:                 "Papirus-Dark";
+    display-drun:               "  Apps";
+    display-run:                "  Run";
+    display-window:             " 﩯 Windows";
+    display-ssh:                "  SSH";
+    drun-display-format:        "{name}";
+    window-format:              "{w} · {c} · {t}";
+    disable-history:            false;
+    sidebar-mode:               true;
+    hover-select:               true;
+    me-select-entry:            "";
+    me-accept-entry:            "MousePrimary";
+    scroll-method:              0;
+    kb-mode-next:               "Shift+Right,Control+Tab";
+    kb-mode-previous:           "Shift+Left,Control+ISO_Left_Tab";
+    kb-row-up:                  "Up,Control+k";
+    kb-row-down:                "Down,Control+j";
+    kb-accept-entry:            "Return,KP_Enter";
+    kb-remove-to-eol:           "Control+Shift+e";
+    kb-mode-complete:           "Control+l";
+    kb-remove-char-back:        "BackSpace";
+}
+
