@@ -19,4 +19,4 @@ the dependices are:
 git 
 
 
-and thats all for it!
+!STILL UNDER DEVELOPMENT!
