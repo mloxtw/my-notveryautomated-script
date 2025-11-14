@@ -12,7 +12,7 @@ git and hyprland
  
 
 HOW TO USE 
-simply cd to the file like this:
+simply cd to the dir like this:
 
 cd my-notveryautomated-script
 
