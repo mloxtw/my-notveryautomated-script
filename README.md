@@ -1,22 +1,13 @@
 hello friend,
-i will provide updates in random times so dont wait too much 
+these are my dotfiles, they are understandable and they dont make so much change
+i made it simply with the target of making the user edit the files them selfs easily 
 i hope ur happy with it
 
-
-
-                                          
-             ,,                           
-;            ||                           
-\\/\/\  _-_  ||  _-_  /'\\ \\/\\/\\  _-_  
-|| | | || \\ || ||   || || || || || || \\ 
-|| | | ||/   || ||   || || || || || ||/   
-\\/\\/ \\,/  \\ \\,/ \\,/  \\ \\ \\ \\,/  
-                                          
-                                          
-
-first of all download the noctalia shell script then use the "hyprlandez.sh" file
+first of all
 the dependices are:
-git 
+git and hyprland
+ not very much as i said eh?
 
+ ONLY ARCHLINUX 
 
 !STILL UNDER DEVELOPMENT!
