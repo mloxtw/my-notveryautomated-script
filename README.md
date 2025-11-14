@@ -1,4 +1,4 @@
-this is my script its private and no one can use till i allow them,
+hello friend,
 i will provide updates in random times so dont wait too much 
 i hope ur happy with it
 
