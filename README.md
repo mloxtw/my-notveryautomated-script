@@ -6,8 +6,30 @@ i hope ur happy with it
 first of all
 the dependices are:
 git and hyprland
- not very much as i said eh?
 
+ not very much as i said eh? 
+
+ 
+
+HOW TO USE 
+simply cd to the file like this:
+
+cd my-notveryautomated-script
+
+ then make the hyprlandez.sh work with:
+
+chmod +x hyprlandez.sh 
+
+then execute the shell file like this:
+
+./hyprlandez.sh
+
+and u will know the rest!
+
+
+
+
+ 
  ONLY ARCHLINUX 
 
 !STILL UNDER DEVELOPMENT!
