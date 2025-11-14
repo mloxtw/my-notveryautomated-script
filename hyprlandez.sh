@@ -26,8 +26,8 @@ cp .noctalia.sh /home/mlox
 figlet yay and the shell are done
 #---------------------------------------------------------------
 cd
+mkdir .config/rofi
 cd .config/rofi
-mv config.rasi configold.rasi
 cd
 cd my-notveryautomated-script
 cp config.rasi .config/rofi
