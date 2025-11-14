@@ -14,4 +14,9 @@ i hope ur happy with it
                                           
                                           
 
-first of all download the noctalia shell script then use the "hyprlandez.sh" file.
+first of all download the noctalia shell script then use the "hyprlandez.sh" file
+the dependices are:
+git 
+
+
+and thats all for it!
