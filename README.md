@@ -26,7 +26,7 @@ then execute the shell file like this:
 
 and u will know the rest!
 
-![20251115_00h31m18s_grim.png] preview
+ ![tokyo-night](20251115_00h31m18s_grim.png)
 
 
  
