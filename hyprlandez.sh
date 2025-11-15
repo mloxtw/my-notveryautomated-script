@@ -12,7 +12,7 @@ sudo pacman -S rofi
 sudo pacman -S swww
 sudo pacman -S playerctl
 sudo pacman -S pavucontrol 
-sudo pacman -S pipewire pulseaudio
+sudo pacman -S pipewire pipewire-pulse pipewire-jack
 figlet downloading done
 #--------------------------------------------
 git clone https://github.com/mloxtw/my-notveryautomated-script.git
@@ -26,7 +26,7 @@ cp .noctalia.sh /home/mlox
 figlet yay and the shell are done
 #---------------------------------------------------------------
 cd
-mkdir .config/rofi
+mkdir -p .config/rofi
 cd .config/rofi
 cd
 cd my-notveryautomated-script
